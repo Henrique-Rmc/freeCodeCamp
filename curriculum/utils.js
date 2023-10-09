@@ -22,7 +22,7 @@ exports.testedLang = function testedLang() {
     throw Error('LOCALE must be set for testing');
   }
 };
-
+//Create a 
 function createSuperOrder(superBlocks) {
   if (!Array.isArray(superBlocks)) {
     throw Error(`superBlocks must be an Array`);
@@ -85,6 +85,7 @@ const directoryToSuperblock = {
   '99-example-certification': 'example-certification'
 };
 
+//gets the superBlock within a directory provided as a parameter
 function getSuperBlockFromDir(dir) {
   const superBlock = directoryToSuperblock[dir];
   if (!superBlock) throw Error(`${dir} does not map to a superblock`);
