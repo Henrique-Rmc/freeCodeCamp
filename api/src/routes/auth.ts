@@ -51,7 +51,7 @@ const findOrCreateUser = async (fastify: FastifyInstance, email: string) => {
     )
   }
 };
-
+ 
 /**
  * Route handler for development login. This is only used in local
  * development, and bypasses Auth0, authenticating as the development
