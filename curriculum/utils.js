@@ -22,7 +22,6 @@ exports.testedLang = function testedLang() {
     throw Error('LOCALE must be set for testing');
   }
 };
-//Create a 
 function createSuperOrder(superBlocks) {
   if (!Array.isArray(superBlocks)) {
     throw Error(`superBlocks must be an Array`);
